@@ -1,0 +1,31 @@
+.elevator-container {
+  width: 150px;
+  height: 800px;
+
+  padding: 15px;
+}
+
+.elevator {
+  height: 100%;
+  transition: height 2s;
+}
+
+.elevator-box {
+  height: 160px;
+  width: 120px;
+
+  overflow: hidden;
+}
+
+.left-door.open {
+  transform: translate(-100%, 0px);
+}
+
+.right-door.open {
+  transform: translate(100%, 0px);
+}
+
+.door {
+  transition: ease-in-out 2s;
+  border: 1px solid black;
+}
